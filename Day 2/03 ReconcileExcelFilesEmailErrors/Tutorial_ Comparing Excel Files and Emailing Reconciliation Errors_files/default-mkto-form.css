@@ -1,0 +1,567 @@
+form.mktoForm input::-webkit-input-placeholder,
+form.mktoForm textarea::-webkit-input-placeholder{
+    color: #595a5c;
+    font-family: Inter-Regular, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing:0;
+}
+form.mktoForm input::-moz-placeholder,
+form.mktoForm textarea::-moz-placeholder{
+    color: #595a5c;
+    font-family: Inter-Regular, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing:0;
+}
+form.mktoForm input:-ms-input-placeholder,
+form.mktoForm textarea:-ms-input-placeholder{
+    color: #595a5c;
+    font-family: Inter-Regular, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing:0;
+}
+form.mktoForm input:-moz-placeholder,
+form.mktoForm textarea:-moz-placeholder{
+    color: #595a5c;
+    font-family: Inter-Regular, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing:0;
+}
+form.mktoForm input::placeholder,
+form.mktoForm textarea::placeholder{
+    color: #595a5c;
+    font-family: Inter-Regular, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing:0;
+}
+
+form.mktoForm{
+    width:100%!important;
+    margin:0;
+    display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.mktoForm .mktoHasWidth{
+    width:100%!important;
+}
+.mktoForm .mktoFieldWrap div.mktoGutter.mktoHasWidth{display:none}
+
+.mktoForm .mktoFormRow{
+    font-family: Inter,sans-serif;
+    width:100%;
+    display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.mktoForm .mktoFormRow .mktoFormCol .mktoField {
+    float:none;
+}
+
+.mktoForm .mktoFormRow .mktoFormCol{
+    min-height: initial;
+    float: none;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    position: relative;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+    max-width: 100%;
+    display: unset;
+    margin-bottom: 16px!important;
+}
+
+.mktoForm .mktoFormRow .mktoFormCol .mktoOffset{display:none}
+.mktoForm .mktoFormRow .mktoFormCol .mktoFieldWrap{width:100%}
+.mktoForm .mktoFormRow .mktoFormCol .mktoLabel{
+    float:none;
+    font-size:12px;
+    font-weight: 300;
+    line-height:16px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+    color: #000000;
+    width:initial!important;
+    display:inline-block;
+    text-transform: initial;
+}
+.mktoForm .mktoFormRow .mktoFormCol .mktoFieldWrapLabel label.mktoLabel{display:none}
+
+.mktoForm .mktoFormRow input[type=text],
+.mktoForm .mktoFormRow input[type=url],
+.mktoForm .mktoFormRow input[type=email],
+.mktoForm .mktoFormRow input[type=tel],
+.mktoForm .mktoFormRow input[type=number],
+.mktoForm .mktoFormRow input[type=date]{
+    -webkit-appearance: none;
+    -moz-appearance:textfield;
+}
+
+.mktoForm .mktoFormRow input[type=text],
+.mktoForm .mktoFormRow input[type=url],
+.mktoForm .mktoFormRow input[type=email],
+.mktoForm .mktoFormRow input[type=tel],
+.mktoForm .mktoFormRow input[type=number],
+.mktoForm .mktoFormRow input[type=date],
+.mktoForm .mktoFormRow textarea.mktoField,
+.mktoForm .mktoFormRow select.mktoField {
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #6a6a6a;
+    width: 100%;
+    border-radius:0;
+    box-shadow: none;
+    height: 48px;
+    padding: 10px 16px;
+    margin-top:4px
+}
+
+.mktoForm .mktoFormRow select.mktoField {
+    color: #000000;
+    padding-right:40px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.mktoForm .mktoFormRow input[type=text]:hover,
+.mktoForm .mktoFormRow input[type=url]:hover,
+.mktoForm .mktoFormRow input[type=email]:hover,
+.mktoForm .mktoFormRow input[type=tel]:hover,
+.mktoForm .mktoFormRow input[type=number]:hover,
+.mktoForm .mktoFormRow input[type=date]:hover,
+.mktoForm .mktoFormRow textarea.mktoField:hover,
+.mktoForm .mktoFormRow select.mktoField:hover {
+    border: 1px solid #000000;
+}
+
+.mktoForm input[type=text]:focus,
+.mktoForm input[type=url]:focus,
+.mktoForm input[type=email]:focus,
+.mktoForm input[type=tel]:focus,
+.mktoForm input[type=number]:focus,
+.mktoForm input[type=date]:focus,
+.mktoForm select.mktoField:focus,
+.mktoForm textarea.mktoField:focus{
+    border: 1px solid #0067df;
+    outline: none;
+}
+
+.mktoForm input[type=text]:focus:hover,
+.mktoForm input[type=url]:focus:hover,
+.mktoForm input[type=email]:focus:hover,
+.mktoForm input[type=tel]:focus:hover,
+.mktoForm input[type=number]:focus:hover,
+.mktoForm input[type=date]:focus:hover,
+.mktoForm select.mktoField:focus:hover,
+.mktoForm textarea.mktoField:focus:hover{
+    border: 1px solid #0067df;
+}
+
+.mktoForm input[type=text]:disabled,
+.mktoForm input[type=url]:disabled,
+.mktoForm input[type=email]:disabled,
+.mktoForm input[type=tel]:disabled,
+.mktoForm input[type=number]:disabled,
+.mktoForm input[type=date]:disabled,
+.mktoForm select.mktoField:disabled,
+.mktoForm textarea.mktoField:disabled{
+    border: 1px solid #d1d1d1;
+    background: #F7F7F7;
+    cursor: not-allowed;
+}
+
+.mktoForm input[type=text]:disabled:hover,
+.mktoForm input[type=url]:disabled:hover,
+.mktoForm input[type=email]:disabled:hover,
+.mktoForm input[type=tel]:disabled:hover,
+.mktoForm input[type=number]:disabled:hover,
+.mktoForm input[type=date]:disabled:hover,
+.mktoForm select.mktoField:disabled:hover,
+.mktoForm textarea.mktoField:disabled:hover{
+    border: 1px solid #d1d1d1;
+}
+
+.mktoForm input[type=text].mktoInvalid,
+.mktoForm input[type=url].mktoInvalid,
+.mktoForm input[type=email].mktoInvalid,
+.mktoForm input[type=tel].mktoInvalid,
+.mktoForm input[type=number].mktoInvalid,
+.mktoForm input[type=date].mktoInvalid,
+.mktoForm select.mktoField.mktoInvalid,
+.mktoForm textarea.mktoField.mktoInvalid{
+    border: 1px solid #f5222d;
+}
+
+.mktoForm .mktoFormCol .mktoDateButton{
+    display:none;
+}
+
+.mktoForm textarea{min-height:120px}
+
+.mktoForm select{
+    background-position: calc( 100% - 15px ) center;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    background-image: url(https://uipath.com/hubfs/resources/Gated-LP-Template/arrow-down.svg);
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+}
+
+.mktoForm .mktoButtonRow{
+    width:100%;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.mktoForm .mktoButtonRow .mktoButtonWrap{
+    margin-left:0!important;
+    display:block;
+    padding-left:12px;
+    padding-right:12px;
+}
+.mktoForm .mktoButtonRow .mktoButtonWrap .mktoButton {
+    background:#fa4616!important;
+    color:#fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    border-radius:0;
+    box-shadow: none;
+    height: 48px;
+    padding: 10px 24px;
+    border:0;
+    margin-top: 2px;
+}
+.mktoForm .mktoButtonRow .mktoButtonWrap .mktoButton:focus,
+.mktoForm .mktoButtonRow .mktoButtonWrap .mktoButton:focus:hover,
+.mktoForm .mktoButtonRow .mktoButtonWrap .mktoButton:hover{
+    border:0;
+    background:#fa4616;
+    color:#fff;
+}
+
+.mktoForm .mktoFormRow .mktoRadioList > label,
+.mktoForm .mktoFormRow .mktoCheckboxList > label{
+    font-size:12px;
+    margin-top: 5px !important;
+    text-transform: initial;
+}
+.mktoForm .mktoFormRow .mktoFormCol label.mktoLabel.mktoHasWidth[style*="99999px"],
+.mktoForm .mktoFormRow .mktoFormCol label.mktoLabel.mktoHasWidth[style*="99999px"]{display:none;}
+
+.mktoForm .mktoFormRow .mktoLogicalField.mktoRequired .red{
+    color: #bf0000;
+}
+
+.red{color: #bf0000;}
+
+.mktoForm .mktoFormRow .mktoRadioList > label:last-child,
+.mktoForm .mktoFormRow .mktoCheckboxList > label:last-child{margin-bottom:0}
+
+.mktoForm .mktoRadioList,
+.mktoForm .mktoCheckboxList {
+    padding:0;
+}
+
+.mktoForm .mktoLogicalField.mktoRadioList,
+.mktoForm .mktoLogicalField.mktoCheckboxList {
+    float:none;
+}
+
+.mktoForm .mktoFormCol .mktoFieldWrap label.mktoLabel{
+    font-weight:300;
+}
+
+.mktoForm .mktoRequiredField label .mktoAsterix{display:inline-block}
+
+.mktoForm .mktoFieldWrap .mktoError{
+    position: relative!important;
+    left: unset!important;
+    right: unset!important;
+    top: unset!important;
+    bottom: unset!important;
+}
+.mktoForm .mktoFieldWrap .mktoError .mktoErrorArrowWrap{display:none}
+.mktoForm .mktoFieldWrap .mktoError .mktoErrorMsg{
+    background: transparent;
+    color: #f5222d;
+    text-shadow: unset;
+    border-radius: 0;
+    border: 0;
+    box-shadow: unset;
+    word-break: break-word;
+    padding: 0;
+    font-size:13px;
+}
+
+/*custom input checkbox*/
+.mktoForm input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+}
+.mktoForm input[type="checkbox"] + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    width:100%;
+    display: block;
+    margin-bottom:4px;
+    margin-left:0;
+    padding-left: 22px;
+}
+.mktoForm input[type="checkbox"] + label:before {
+    content: "";
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border: 1px solid #d1d1d1;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    position: absolute;
+    left: 0;
+}
+.mktoForm input[type="checkbox"] + label:after {
+    clear: both;
+}
+.mktoForm input[type="checkbox"]:hover + label:before {
+    background: #0067df;
+}
+.mktoForm input[type="checkbox"]:focus + label:before {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+}
+.mktoForm input[type="checkbox"]:checked + label:before {
+    background: #0067df;
+}
+.mktoForm input[type="checkbox"]:disabled + label {
+    color: #b8b8b8;
+    cursor: not-allowed;
+}
+.mktoForm input[type="checkbox"]:disabled + label:before {
+    box-shadow: none;
+    background: #ddd;
+}
+.mktoForm input[type="checkbox"]:checked + label:after,
+.mktoForm input[type="checkbox"]:not(:checked):hover + label:after{
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 8px;
+    background: white;
+    width: 2px;
+    height: 2px;
+    box-shadow: 2px 0 0 white, 2px -2px 0 white, 2px -4px 0 white, 2px -6px 0 white;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.mktoForm input[type="checkbox"][disabled]:hover + label:after{
+    box-shadow:none;
+    background: #ddd;
+}
+.mktoForm input[type="checkbox"][disabled]:checked:hover + label:after{
+    box-shadow: 2px 0 0 white, 3px 0 0 white, 3px -2px 0 white, 3px -4px 0 white, 3px -6px 0 white;
+    background: white;
+    width: 2px;
+    height: 2px;
+}
+
+/*custom input radio*/
+.mktoForm input[type="radio"]:checked,
+.mktoForm input[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.mktoForm input[type="radio"]:checked + label,
+.mktoForm input[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 24px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    width: 100%;
+    margin-left:0;
+    margin-bottom:8px;
+}
+.mktoForm input[type="radio"][disabled] + label,
+.mktoForm input[type="radio"]:not(:checked)[disabled] + label
+.mktoForm input[type="radio"]:checked[disabled] + label{
+    cursor: not-allowed;
+    margin-bottom:8px;
+}
+.mktoForm input[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #d1d1d1;
+    border-radius: 100%;
+    background: #fff;
+}
+.mktoForm input[type="radio"]:checked + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #d1d1d1;
+    border-radius: 100%;
+    background: #0067df;
+}
+.mktoForm input[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 7px;
+    height: 7px;
+    background: #ffffff;
+    position: absolute;
+    top: 6px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.mktoForm input[type="radio"]:checked + label:after {
+    content: '';
+    width: 7px;
+    height: 7px;
+    background: #ffffff;
+    position: absolute;
+    top: 6px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.mktoForm input[type="radio"][disabled] + label:before,
+.mktoForm input[type="radio"][disabled] + label:after{background: #d3d4d6;}
+.mktoForm input[type="radio"]:checked[disabled] + label:after{background: #fff;}
+.mktoForm input[type="radio"]:not(:checked) + label:after{
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.mktoForm input[type="radio"]:checked + label:after,
+.mktoForm input[type="radio"]:not(:checked):hover + label:after,
+.mktoForm input[type="radio"]:checked[disabled] + label:after,
+.mktoForm input[type="radio"]:checked[disabled]:hover + label:after{
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    background: #fff;
+}
+.mktoForm input[type="radio"]:not(:checked):hover + label:before {
+    background: #0067df;
+}
+.mktoForm input[type="radio"][disabled]:hover + label:before,
+.mktoForm input[type="radio"][disabled]:hover + label:after{background: #d3d4d6;}
+
+.mktoForm .select2 {
+    font-size: 16px;
+    line-height: 24px;
+    border:0;
+    width: 100%!important;
+    border-radius: 0;
+    box-shadow: none;
+    height: 48px;
+    margin-top: 8px;
+    max-width: 100%;
+    outline: unset;
+}
+.mktoForm .select2-container .select2-selection--single{
+    outline: unset;
+    height: 48px;
+    border: 1px solid #6a6a6a;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    text-align: left;
+}
+.select2-container--default li{text-align:left;padding: 6px 16px;font-size:16px;font-family: Inter,sans-serif}
+.mktoForm .select2-container--default .select2-selection--single .select2-selection__arrow{
+    height: 48px;
+}
+.mktoForm .select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 48px;
+    padding-right: 40px;
+    padding-left: 16px;
+}
+.mktoForm .select2-container--default .select2-selection--single .select2-selection__arrow{width:30px}
+.mktoForm .select2-container--default .select2-selection--single .select2-selection__arrow b{
+    background: url(https://uipath.com/hubfs/resources/Gated-LP-Template/arrow-down.svg) no-repeat;
+    border: 0;
+    left: 0;
+    margin-left: 0;
+    margin-top: -5px;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    height: 10px;
+}
+.select2-container--default .select2-search--dropdown{padding:8px 16px}
+.select2-container--open .select2-dropdown .select2-search__field{
+    outline: none;
+    -webkit-appearance:none;
+    font-size: 16px;
+    line-height: initial;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 10px 8px;
+    margin-top: 8px;
+    border: 1px solid #6a6a6a!important;
+    height:48px;
+}
+.select2-container--default .select2-results__option--highlighted{background:#0067df!important;}
+.select2-container.select2-container--default .select2-results > .select2-results__options{max-height:240px}
+
+.select2-container--open .select2-dropdown{border: 1px solid #6a6a6a;border-radius:0;}
+
+@media all and (max-width:480px) {
+    .mktoForm {
+        padding:0!important;
+    }
+    .mktoHasWidth.mktoForm {
+        padding: 0;
+    }
+
+    .mktoForm .mktoFormRow{
+        margin-left:0;
+        margin-right:0;
+    }
+
+    .mktoForm .mktoFormRow {flex-direction: column;margin-bottom:0}
+    .mktoForm .mktoFormRow .mktoFormCol{padding:0;margin-bottom:16px!important;}
+
+    .mktoForm .mktoButtonRow .mktoButtonWrap{padding:0}
+
+    .mktoForm .mktoFormRow .mktoField,
+    .mktoForm .mktoFormRow input,
+    .mktoForm .mktoFormRow textarea,
+    .mktoForm .mktoFormRow select{height: unset;}
+
+}
